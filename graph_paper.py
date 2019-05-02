@@ -11,8 +11,7 @@ columns_spaces = int(input("How many columns of spaces in each box? "))
 
 for i in range(rows_boxes):
 
-    for j in range(columns_boxes):
-        print("+" + columns_spaces*"-", end = "")
+    print(columns_boxes*("+" + columns_spaces*"-"), end = "")
 
     print('+')
 
@@ -20,7 +19,6 @@ for i in range(rows_boxes):
         print(columns_boxes*("|" + columns_spaces*" "), end = "")
         print('|')
        
-print(columns_boxes*("+" + columns_spaces*"-"), end = "")
-print('+')
+print(columns_boxes*("+" + columns_spaces*"-") + '+', end = "")
 
 sys.exit(0)
