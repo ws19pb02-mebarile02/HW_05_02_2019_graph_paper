@@ -2,15 +2,12 @@
 This program prints graph paper to user specifications.
 """
 
-
 import sys
 
 rows_boxes = int(input("How many rows of boxes? "))
 columns_boxes = int(input("How many columns of boxes? "))
 rows_spaces = int(input("How many rows of spaces in each box? "))
 columns_spaces = int(input("How many columns of spaces in each box? "))
-
-
 
 for i in range(rows_boxes):
 
